@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
+import 'getx_related/screens/dialog_alart_bottom_sheet_theme_change.dart';
 import 'getx_related/screens/snacbar_example.dart';
 
 
@@ -17,11 +18,8 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      theme: ThemeData(
-
-        primarySwatch: Colors.blue,
-      ),
-      home: SnacbarExample(),
+      themeMode: ThemeMode.system,
+      home: AlartBottomTheme(),
     );
   }
 }

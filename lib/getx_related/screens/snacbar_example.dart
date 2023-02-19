@@ -22,6 +22,7 @@ class _SnacbarExampleState extends State<SnacbarExample> {
 
         ],
       ),
+
       floatingActionButton: FloatingActionButton(
           child: Icon(Icons.add),
           onPressed: () {
