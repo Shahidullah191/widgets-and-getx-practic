@@ -64,7 +64,7 @@ class _AlartBottomThemeState extends State<AlartBottomTheme> {
                             leading: Icon(Icons.dark_mode),
                             title: Text("Dark Theme"),
                             onTap: () {
-                              Get.changeThemeMode(ThemeMode.light);
+                              Get.changeThemeMode(ThemeMode.dark);
                             },
                           ),
 
