@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 import 'package:get/get.dart';
+=======
+>>>>>>> origin/main
 
 class AlartBottomTheme extends StatefulWidget {
   const AlartBottomTheme({Key? key}) : super(key: key);
@@ -11,6 +14,7 @@ class AlartBottomTheme extends StatefulWidget {
 class _AlartBottomThemeState extends State<AlartBottomTheme> {
   @override
   Widget build(BuildContext context) {
+<<<<<<< HEAD
     return Scaffold(
       appBar: AppBar(
         title: Text("Alart Dialog, BottomSheet, Theme Changes"),
@@ -77,5 +81,8 @@ class _AlartBottomThemeState extends State<AlartBottomTheme> {
         ],
       ),
     );
+=======
+    return Scaffold();
+>>>>>>> origin/main
   }
 }
